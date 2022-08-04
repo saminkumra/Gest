@@ -1,0 +1,263 @@
+h1.title{
+    display: none;
+}
+th, td {
+    padding: 15px;
+  }
+
+
+#sentence {
+    width: 50%;
+    margin: 0 auto;
+    /* margin-left: 10;
+    margin-right: 10; */
+    text-align: center;
+    font-size: 36px;
+  }
+
+#autocomplete_section {
+    width: 100%;
+    height: 25%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    background-color: #00a6ff
+}
+
+#autocomplete_words {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+}
+h1, img, textarea {text-align: center;}
+#caption {text-align: center;}
+button{ 
+    position:relative;
+    top:50%; 
+    left:47%;
+}
+#table-of-contents h1{
+    display: none;
+}
+
+body {
+    padding-top: 1rem;
+    font-size: 16px;
+}
+
+.outline-1{
+    margin: 1%;
+    max-width: 2000px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+
+.h1,
+h1 {
+    font-size: 32px
+}
+
+.h2,
+h2 {
+    font-size: 30px
+}
+
+a:visited {
+    color: purple;
+}
+
+@media (min-width:768px) {
+    .navbar-right .dropdown-menu {
+        right: 0;
+        left: auto
+    }
+
+    .navbar-right .dropdown-menu-left {
+        right: auto;
+        left: 0
+    }
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.nav>li {
+    position: relative;
+    display: block
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px
+}
+
+.nav>li>a:hover {
+    text-decoration: bold;
+    background-color: rgba(0, 223, 223, 0.808)
+}   
+    
+@media (min-width:768px) {
+    .nav-justified>li {
+        display: table-cell;
+        width: 1%
+    }
+
+    .nav-justified>li>a {
+        margin-bottom: 0
+    }
+}
+
+.nav-tabs-justified {
+    border-bottom: 0
+}
+
+.nav-tabs-justified>li>a {
+    margin-right: 0;
+    border-radius: 4px
+}
+
+.nav-tabs-justified>.active>a,
+.nav-tabs-justified>.active>a:focus,
+.nav-tabs-justified>.active>a:hover {
+    border: 1px solid #ddd
+}
+
+@media (min-width:768px) {
+    .navbar {
+        border-radius: 4px
+    }
+    .navbar-header {
+        float: left
+    }
+    .navbar-static-top {
+        border-radius: 0
+    }
+    .navbar-nav {
+        float: left;
+        margin: 0
+    }
+
+    .navbar-nav>li {
+        float: left
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    
+    .navbar-fixed-bottom,
+    .navbar-fixed-top {
+        border-radius: 0
+    }
+    .nav-tabs-justified>li>a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0
+    }
+
+    .nav-tabs-justified>.active>a,
+    .nav-tabs-justified>.active>a:focus,
+    .nav-tabs-justified>.active>a:hover {
+        border-bottom-color: #fff;
+    }
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent
+}
+
+.navbar-fixed-bottom,
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px
+}
+
+.navbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0
+}
+
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7
+}
+
+
+
+.navbar-default .navbar-text {
+    color: #777
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777
+}
+
+
